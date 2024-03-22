@@ -48,6 +48,6 @@ Flashing with Qmk + via example for this keyboard:
 
 **Reset Key**: Connect the USB cable, toggle mode switch to "Off", hold down the *Esc* key or reset button underneath space bar, then toggle then switch to "Cable".
 
-**VIA Definition file**: The appropriate v3 file in via_json folder must be manually uploaded to via from the dedign tab, for via to work.
+**VIA Definition file**: The appropriate v3 file in via_json folder must be manually uploaded to via from the design tab, for via to work.
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
