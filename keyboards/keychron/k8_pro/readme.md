@@ -26,6 +26,28 @@ Flashing example for this keyboard:
     make keychron/k8_pro/jis/rgb:default:flash
     make keychron/k8_pro/jis/white:default:flash
 
+Qmk example for this keyboard (after setting up your build environment):
+
+    qmk compile -kb keychron/k8_pro/ansi/rgb -km default
+    qmk compile -kb keychron/k8_pro/ansi/white -km default
+
+Qmk + via example for this keyboard (after setting up your build environment):
+
+    qmk compile -kb keychron/k8_pro/ansi/rgb -km via
+    qmk compile -kb keychron/k8_pro/ansi/white -km via
+
+Flashing with Qmk example for this keyboard:
+
+    qmk flash -kb keychron/k8_pro/ansi/rgb -km default
+    qmk flash -kb keychron/k8_pro/ansi/white -km default
+
+Flashing with Qmk + via example for this keyboard:
+
+    qmk flash -kb keychron/k8_pro/ansi/rgb -km via
+    qmk flash -kb keychron/k8_pro/ansi/white -km via
+
 **Reset Key**: Connect the USB cable, toggle mode switch to "Off", hold down the *Esc* key or reset button underneath space bar, then toggle then switch to "Cable".
+
+**VIA Definition file**: The appropriate v3 file in via_json folder must be manually uploaded to via from the dedign tab, for via to work.
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
